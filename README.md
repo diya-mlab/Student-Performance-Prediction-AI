@@ -19,6 +19,9 @@ The application provides a simple and interactive interface where users can ente
 - View predicted performance category
 - Receive personalized study suggestions
 - Simple and interactive web interface
+- ## 🖥️ Application Preview
+
+![Student Performance Prediction App]
 
 ## 🛠️ Technologies Used
 
