@@ -21,7 +21,7 @@ The application provides a simple and interactive interface where users can ente
 - Simple and interactive web interface
 - ## 🖥️ Application Preview
 
-![Student Performance Prediction App]
+![Student Performance Prediction App](IMG_20261125_220837.jpg)
 
 ## 🛠️ Technologies Used
 
