@@ -2,6 +2,22 @@
 import gradio as gr
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Sample student dataset
+data = {
+    "Study_Hours": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "Previous_Marks": [35, 40, 45, 50, 55, 60, 65, 70, 75, 80],
+    "Exam_Marks": [38, 42, 48, 52, 58, 63, 68, 75, 78, 85]
+}
+
+df = pd.DataFrame(data)
+
+X = df[["Study_Hours", "Previous_Marks"]]
+y = df["Exam_Marks"]
+
+model = LinearRegression()
+model.fit(X, y)
 
 --------------------------------
 
